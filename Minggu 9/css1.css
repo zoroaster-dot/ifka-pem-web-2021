@@ -1,0 +1,68 @@
+body {
+    background: #7acdf3;
+    font-family: roboto;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.ketengah {
+    margin: 10px auto;
+    width: 1150px;
+}
+
+.kotak {
+    background: #fcfcfc;
+    padding: 20px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+}
+
+.kotak1 {
+    border-radius: 10px 10px 10px 10px;
+    background-color: aqua;
+}
+
+.kotak2 {
+    border-radius: 40px 20px 60px 90px;
+    background-color: aquamarine;
+}
+
+.kotak3 {
+    border-radius: 2px 140px 20px 60px;
+    background-color: azure;
+}
+
+.kotak3 {
+    border-radius: 20px 10px 80px 10px;
+    background-color: beige;
+}
+
+.kotak4 {
+    border-radius: 0px 50px 0px 50px;
+    background-color: blanchedalmond;
+}
+
+.kotak5 {
+    border-radius: 0px 0px 0px 0px;
+    background-color: cadetblue;
+}
+
+.kotak6 {
+    border-radius: 100%;
+    background-color: cornflowerblue;
+}
+
+.kotak7 {
+    border-radius: 40px 10px;
+    background-color: darkcyan;
+}
+
+.kotak8 {
+    border-radius: 10px 10px 50% 50%;
+    background-color: cyan;
+}
