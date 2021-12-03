@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Percabangan if/else/if</title>
+</head>
+
+<body>
+    <script>
+        var nilai = prompt("Inputkan Nilai Akhir Anda:");
+        var grade = "";
+        if (nilai >= 85) grade = "A"
+        else if (nilai >= 80) grade = "AB"
+        else if (nilai >= 70) grade = "B"
+        else if (nilai >= 65) grade = "BC"
+        else if (nilai >= 60) grade = "C"
+        else if (nilai >= 55) grade = "D"
+        else if (nilai >= 1) grade = "E"
+        else grade = "F";
+        document.write(`<p>Grade Anda: ${grade}</p>`);
+    </script>
+</body>
+
+</html>
